@@ -34,10 +34,10 @@
 					<groupId>org.apache.logging.log4j</groupId>
 					<artifactId>log4j-api</artifactId>
                 </exclusion>
-				<!-- <exclusion>
+				<exclusion>
 					<groupId>org.apache.logging.log4j</groupId>
-					<artifactId>log4j-api</artifactId>
-                </exclusion> -->
+					<artifactId>log4j-to-slf4j</artifactId>
+                </exclusion>
 			</exclusions>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
