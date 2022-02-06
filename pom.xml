@@ -17,10 +17,10 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.dependencyCheck.htmlReportPath>/var/lib/jenkins/workspace/Integrate_Sonar/target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
+		<!-- <sonar.dependencyCheck.htmlReportPath>/var/lib/jenkins/workspace/Integrate_Sonar/target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
 		<sonar.dependencyCheck.jsonReportPath>/var/lib/jenkins/workspace/Integrate_Sonar/target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
 		<sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
-		<sonar.host.url>http://10.4.0.5:9000/</sonar.host.url>
+		<sonar.host.url>http://10.4.0.5:9000/</sonar.host.url> -->
 	</properties>
 
 
