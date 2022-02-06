@@ -31,9 +31,13 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
                 <exclusion>
-			        <groupId>log4j</groupId>
-			        <artifactId>log4j</artifactId>
+					<groupId>org.apache.logging.log4j</groupId>
+					<artifactId>log4j-api</artifactId>
                 </exclusion>
+				<!-- <exclusion>
+					<groupId>org.apache.logging.log4j</groupId>
+					<artifactId>log4j-api</artifactId>
+                </exclusion> -->
 			</exclusions>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
