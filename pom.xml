@@ -31,8 +31,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
                 <exclusion>
-					<groupId>org.apache.logging.log4j</groupId>
-                    <artifactId>log4j-api</artifactId>
+			        <groupId>log4j</groupId>
+			        <artifactId>log4j</artifactId>
                 </exclusion>
 			</exclusions>
 		</dependency>
