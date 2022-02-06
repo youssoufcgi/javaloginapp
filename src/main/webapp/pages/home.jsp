@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Already registered!!!!!worked <a href="login">Login Here</a>
+DevSecOPs in action! <a href="login">Login Here</a>
 </body>
 </html>
