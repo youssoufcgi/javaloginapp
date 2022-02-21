@@ -40,12 +40,7 @@
                 </exclusion>
 			</exclusions>
 		</dependency>
-		<!-- INJECT LOG4J VULN.--> 
-		<!-- <dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.16</version>
-		</dependency> -->
+
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
 		    <groupId>org.apache.tomcat</groupId>
