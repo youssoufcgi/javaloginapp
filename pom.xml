@@ -29,7 +29,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
+			<!-- <exclusions>
                 <exclusion>
 					<groupId>org.apache.logging.log4j</groupId>
 					<artifactId>log4j-api</artifactId>
@@ -38,13 +38,13 @@
 					<groupId>org.apache.logging.log4j</groupId>
 					<artifactId>log4j-to-slf4j</artifactId>
                 </exclusion>
-			</exclusions>
+			</exclusions> -->
 		</dependency>
-		<dependency> 
+		<!-- <dependency> 
           <groupId>log4j</groupId> 
           <artifactId>log4j</artifactId> 
           <version>1.2.15</version> 
-        </dependency> 
+        </dependency>  -->
 
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
