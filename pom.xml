@@ -40,6 +40,11 @@
                 </exclusion>
 			</exclusions>
 		</dependency>
+		<dependency> 
+          <groupId>log4j</groupId> 
+          <artifactId>log4j</artifactId> 
+          <version>1.2.15</version> 
+        </dependency> 
 
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
@@ -74,13 +79,8 @@
 			</exclusions>
 		</dependency>
 
-        <dependency> 
-          <groupId>log4j</groupId> 
-          <artifactId>log4j</artifactId> 
-          <version>1.2.15</version> 
-        </dependency> 
 
-		
+
 	</dependencies>
 
 
